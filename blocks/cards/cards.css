@@ -1,27 +1,140 @@
+/* Block: cards -- merkle.com card galleries
+ * Extracted from source computed styles (merkle.com/en.html).
+ * Two contexts:
+ *   1. Default (white section) "Our latest and greatest" featured gallery
+ *      -> black rounded tiles, white text, gray uppercase eyebrow.
+ *   2. .section.dark "Our work in action" case-study gallery
+ *      -> transparent cards on black, square images, white text.
+ */
+
+/* ---- Grid (mobile-first) ---- */
 .cards > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+  grid-template-columns: 1fr;
+  gap: 32px 20px;
 }
 
+/* ---- Card tile (default = featured, black rounded tile) ---- */
 .cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 24px;
+  background-color: var(--dark-color);
+  color: var(--dark-text-color);
 }
 
-.cards .cards-card-body {
-  margin: 16px;
-}
-
+/* ---- Image ---- */
 .cards .cards-card-image {
   line-height: 0;
+  order: 2; /* source featured tiles show text at top, image below */
 }
 
-.cards > ul > li img {
+.cards .cards-card-image img {
+  display: block;
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+/* ---- Body (eyebrow + title + link) ---- */
+.cards .cards-card-body {
+  order: 1;
+  padding: 24px 16px;
+  color: var(--dark-text-color);
+}
+
+.cards .cards-card-body > * {
+  margin: 0;
+}
+
+/* eyebrow / category (first paragraph) */
+.cards .cards-card-body p:first-child {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--eyebrow-color);
+}
+
+/* card title */
+.cards .cards-card-body h2,
+.cards .cards-card-body h3,
+.cards .cards-card-body h4,
+.cards .cards-card-body h5,
+.cards .cards-card-body h6 {
+  margin: 16px 0 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--dark-text-color);
+}
+
+/* CTA link ("Learn more" / "Read case") */
+.cards .cards-card-body p:last-child {
+  margin: 16px 0 0;
+}
+
+.cards .cards-card-body a:any-link {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--dark-text-color);
+  text-decoration: none;
+}
+
+.cards .cards-card-body a:hover {
+  text-decoration: underline;
+}
+
+/* Guard: if EDS auto-decorates the CTA as a button, strip button chrome
+   so it renders as the source plain text link. */
+.cards .cards-card-body a.button:any-link {
+  display: inline;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  background-color: transparent;
+  color: var(--dark-text-color);
+  font: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  white-space: normal;
+}
+
+/* ---- Dark section (work gallery): transparent cards, square images ---- */
+.section.dark .cards > ul > li {
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.section.dark .cards .cards-card-image {
+  order: 1; /* work tiles: square image on top, text below */
+}
+
+.section.dark .cards .cards-card-image img {
+  aspect-ratio: 1 / 1;
+}
+
+.section.dark .cards .cards-card-body {
+  order: 2;
+  padding: 16px 0 0;
+}
+
+.section.dark .cards .cards-card-body h2,
+.section.dark .cards .cards-card-body h3,
+.section.dark .cards .cards-card-body h4,
+.section.dark .cards .cards-card-body h5,
+.section.dark .cards .cards-card-body h6 {
+  margin: 12px 0 0;
+}
+
+/* ---- Desktop: 3 columns ---- */
+@media (width >= 900px) {
+  .cards > ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

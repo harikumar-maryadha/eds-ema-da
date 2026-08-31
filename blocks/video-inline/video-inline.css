@@ -1,0 +1,86 @@
+/* Block: video-inline — CSS extracted from merkle.com .video.centered computed styles */
+
+/* Centered, constrained inline video. Source: 8/12 grid column ≈ 960px max,
+   centered, 80px bottom spacer (bottom-spacer-l), transparent background. */
+.video-inline {
+  max-width: 960px;
+  margin: 24px auto 80px;
+  text-align: center;
+}
+
+/* Player surface: 16:9, 24px rounded corners with clipped overflow, relative
+   for the absolutely-positioned play-button overlay (source: .cmp-video__player). */
+.video-inline .video-inline-player {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 24px;
+  overflow: hidden;
+  background-color: var(--dark-color);
+}
+
+/* Video / poster fills the rounded surface. */
+.video-inline .video-inline-player video,
+.video-inline .video-inline-player img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: var(--dark-color);
+}
+
+/* Centered play-button overlay (source: 96x96 controls with video-play.svg). */
+.video-inline .video-inline-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: rgb(255 255 255 / 92%);
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.video-inline .video-inline-play:hover,
+.video-inline .video-inline-play:focus-visible {
+  background-color: rgb(255 255 255 / 100%);
+  transform: translate(-50%, -50%) scale(1.05);
+  outline: none;
+}
+
+/* Play triangle (dark, centered, optically nudged right). */
+.video-inline .video-inline-play::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  margin-left: 6px;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  border-left: 26px solid var(--dark-color);
+}
+
+/* Once playing, hide the overlay and reveal native controls. */
+.video-inline.is-playing .video-inline-play {
+  display: none;
+}
+
+/* Reserve space before the player is built to avoid layout shift. */
+.video-inline[data-embed-loaded='false']:not(.placeholder) {
+  aspect-ratio: 16 / 9;
+}
+
+@media (width >= 900px) {
+  .video-inline {
+    margin-bottom: 80px;
+  }
+}

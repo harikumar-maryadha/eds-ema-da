@@ -1,0 +1,687 @@
+[Bulk Import] Starting run with:
+  Import script: /backups/harikumar-maryadha/eds-ema-da/repo/tools/importer/import-capabilities.bundle.js
+  URLs file:     /backups/harikumar-maryadha/eds-ema-da/repo/tools/importer/urls-capabilities.txt
+  Output dir:    /backups/harikumar-maryadha/eds-ema-da/repo/content
+  URL count:     41
+  BD snapshots:  /backups/harikumar-maryadha/eds-ema-da/repo/tools/importer/bd-snapshots (reused on block before Bright Data)
+
+  Browser:       Chromium (bundled) [Chrome unavailable: browserType.launch: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "npx playwright install chrome"]
+[1/41] Starting https://www.merkle.com/en.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Found 9 block instances on page
+[1/41] ⚠️  Content completeness 82.1% (below 90.0%) — possible dropped content
+[1/41] ✅ Saved content to en
+[2/41] Starting https://www.merkle.com/en/capabilities.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 0 block instances on page
+[2/41] ✓ Content completeness 90.8%
+[2/41] ✅ Saved content to en/capabilities
+[3/41] Starting https://www.merkle.com/en/capabilities/analytics-insights.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 0 block instances on page
+[3/41] ✓ Content completeness 94.7%
+[3/41] ✅ Saved content to en/capabilities/analytics-insights
+[4/41] Starting https://www.merkle.com/en/capabilities/analytics-insights/commerce-reporting-and-analytics.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] Failed to load resource: the server responded with a status of 403 ()
+[Browser Console] Failed to load resource: the server responded with a status of 403 ()
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[4/41] ⚠️  Content completeness 88.3% (below 90.0%) — possible dropped content
+[4/41] ✅ Saved content to en/capabilities/analytics-insights/commerce-reporting-and-analytics
+[5/41] Starting https://www.merkle.com/en/capabilities/analytics-insights/commerce-reporting-and-analytics/digital-shelf.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[5/41] ⚠️  Content completeness 88.8% (below 90.0%) — possible dropped content
+[5/41] ✅ Saved content to en/capabilities/analytics-insights/commerce-reporting-and-analytics/digital-shelf
+[6/41] Starting https://www.merkle.com/en/capabilities/analytics-insights/consumer-experience-intelligence.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 0 block instances on page
+[6/41] ✓ Content completeness 92.1%
+[6/41] ✅ Saved content to en/capabilities/analytics-insights/consumer-experience-intelligence
+[7/41] Starting https://www.merkle.com/en/capabilities/analytics-insights/data-and-artificial-intelligence.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 2 block instances on page
+[7/41] ⚠️  Content completeness 84.8% (below 90.0%) — possible dropped content
+[7/41] ✅ Saved content to en/capabilities/analytics-insights/data-and-artificial-intelligence
+[8/41] Starting https://www.merkle.com/en/capabilities/analytics-insights/market-research-consumer-insights.html
+[Browser Console] Failed to load resource: the server responded with a status of 404 ()
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 2 block instances on page
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/analytics-insights/market-research-consumer-insights.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[8/41] ⚠️  Content completeness 80.1% (below 90.0%) — possible dropped content
+[8/41] ✅ Saved content to en/capabilities/analytics-insights/market-research-consumer-insights
+[Browser Console] Failed to load resource: the server responded with a status of 404 ()
+[9/41] Starting https://www.merkle.com/en/capabilities/analytics-insights/marketing-measurement-and-optimization.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 0 block instances on page
+[9/41] ✓ Content completeness 92.3%
+[9/41] ✅ Saved content to en/capabilities/analytics-insights/marketing-measurement-and-optimization
+[10/41] Starting https://www.merkle.com/en/capabilities/consulting-business-operations.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Failed parsing 'srcset' attribute value since it has an unknown descriptor.
+[Browser Console] Dropped srcset candidate "https://assets.merkle.com/is/image/merkle/Blog%20-"
+[Browser Console] Failed parsing 'srcset' attribute value since it has an unknown descriptor.
+[Browser Console] Dropped srcset candidate "https://assets.merkle.com/is/image/merkle/Blog%20-"
+[Browser Console] Failed parsing 'srcset' attribute value since it has an unknown descriptor.
+[Browser Console] Dropped srcset candidate "https://assets.merkle.com/is/image/merkle/Blog%20-"
+[Browser Console] Failed parsing 'srcset' attribute value since it has an unknown descriptor.
+[Browser Console] Dropped srcset candidate "https://assets.merkle.com/is/image/merkle/Blog%20-"
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/consulting-business-operations.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/consulting-business-operations.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[10/41] ⚠️  Content completeness 82.3% (below 90.0%) — possible dropped content
+[10/41] ✅ Saved content to en/capabilities/consulting-business-operations
+[Browser Console] Failed to load resource: the server responded with a status of 404 ()
+[11/41] Starting https://www.merkle.com/en/capabilities/consulting-business-operations/business-transformation-discussion.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 7 block instances on page
+[11/41] ⚠️  Content completeness 69.3% (below 90.0%) — possible dropped content
+[11/41] ✅ Saved content to en/capabilities/consulting-business-operations/business-transformation-discussion
+[12/41] Starting https://www.merkle.com/en/capabilities/consulting-business-operations/customer-experience-blueprint.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 0 block instances on page
+[12/41] ✓ Content completeness 98.3%
+[12/41] ✅ Saved content to en/capabilities/consulting-business-operations/customer-experience-blueprint
+[13/41] Starting https://www.merkle.com/en/capabilities/consulting-business-operations/cx-strategy.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[13/41] ⚠️  Content completeness 84.3% (below 90.0%) — possible dropped content
+[13/41] ✅ Saved content to en/capabilities/consulting-business-operations/cx-strategy
+[14/41] Starting https://www.merkle.com/en/capabilities/consulting-business-operations/digital-transformation.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[14/41] ⚠️  Content completeness 83.0% (below 90.0%) — possible dropped content
+[14/41] ✅ Saved content to en/capabilities/consulting-business-operations/digital-transformation
+[15/41] Starting https://www.merkle.com/en/capabilities/consulting-business-operations/international-growth-consultancy.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 0 block instances on page
+[15/41] ✓ Content completeness 99.1%
+[15/41] ✅ Saved content to en/capabilities/consulting-business-operations/international-growth-consultancy
+[16/41] Starting https://www.merkle.com/en/capabilities/consulting-business-operations/shopnxt.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 0 block instances on page
+[16/41] ⚠️  Content completeness 89.1% (below 90.0%) — possible dropped content
+[16/41] ✅ Saved content to en/capabilities/consulting-business-operations/shopnxt
+[17/41] Starting https://www.merkle.com/en/capabilities/consulting-business-operations/shopnxt/nxt-intelligence.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 0 block instances on page
+[17/41] ✓ Content completeness 93.4%
+[17/41] ✅ Saved content to en/capabilities/consulting-business-operations/shopnxt/nxt-intelligence
+[18/41] Starting https://www.merkle.com/en/capabilities/consulting-business-operations/shopnxt/scan-know.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[18/41] ✓ Content completeness 93.2%
+[18/41] ✅ Saved content to en/capabilities/consulting-business-operations/shopnxt/scan-know
+[19/41] Starting https://www.merkle.com/en/capabilities/consulting-business-operations/shopnxt/unboxit.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[19/41] ✓ Content completeness 91.7%
+[19/41] ✅ Saved content to en/capabilities/consulting-business-operations/shopnxt/unboxit
+[20/41] Starting https://www.merkle.com/en/capabilities/consulting-business-operations/technology-consulting.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[20/41] ⚠️  Content completeness 82.1% (below 90.0%) — possible dropped content
+[20/41] ✅ Saved content to en/capabilities/consulting-business-operations/technology-consulting
+[21/41] Starting https://www.merkle.com/en/capabilities/data-identity.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] get data url from a base64 image (): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at KT.getDataUrlFromB64Img (<anonymous>:2:1903009)
+    at <anonymous>:2:1919086
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1918860)
+    at u.storageHandler.import (<anonymous>:2:1920086)
+    at async fk (<anonymous>:2:1926732)
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[21/41] ✓ Content completeness 99.0%
+[21/41] ✅ Saved content to en/capabilities/data-identity
+[22/41] Starting https://www.merkle.com/en/capabilities/digital-analytics-and-ad-tech.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] Failed to load resource: the server responded with a status of 403 ()
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[22/41] ✓ Content completeness 92.4%
+[22/41] ✅ Saved content to en/capabilities/digital-analytics-and-ad-tech
+[23/41] Starting https://www.merkle.com/en/capabilities/engagement-loyalty.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] ping:top {}
+[Browser Console] ping:language {source: en, target: en-US}
+[Browser Console] ping:enter {source: , target: visible}
+[Browser Console] ping:loadresource {source: https://www.merkle.com/libs/granite/csrf/token.json, target: 26}
+[Browser Console] ping:viewmedia {target: https://assets.merkle.com/is/content/merkle/merkle-full-logo-dt?ts=1765460889463&dpr=off, source: header img.cmp-image__image}
+[Browser Console] ping:viewmedia {target: https://assets.merkle.com/is/image/merkle/Merkle-T…p?op_sharpen=1&op_usm=1.0,0.3,1.0,0&fmt=png-alpha, source: #teaser-37f8e946bc-image img.cmp-image__image}
+[Browser Console] ping:consent {source: onetrust, target: show}
+[Browser Console] ping:viewmedia {target: https://www.google.com/recaptcha/api2/anchor?ar=1&…&anchor-ms=20000&execute-ms=30000&cb=2n8bsjovqssq, source: ""}
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] ping:cwv {cwv: Object}
+[Browser Console] ping:cwv {cwv: Object, target: https://assets.merkle.com/is/image/merkle/Merkle-T…p?op_sharpen=1&op_usm=1.0,0.3,1.0,0&fmt=png-alpha, source: #teaser-37f8e946bc-image img.cmp-image__image}
+[Browser Console] ping:viewmedia {target: https://assets.merkle.com/is/image/merkle/Merkle-M…L?op_sharpen=1&op_usm=1.0,0.3,1.0,0&fmt=png-alpha, source: #teaser-d4ed37193d-image img.cmp-image__image}
+[Browser Console] Failed parsing 'srcset' attribute value since it has an unknown descriptor.
+[Browser Console] Dropped srcset candidate "https://assets.merkle.com/is/image/merkle/1080x1080-Blog%20-"
+[Browser Console] Failed parsing 'srcset' attribute value since it has an unknown descriptor.
+[Browser Console] Dropped srcset candidate "https://assets.merkle.com/is/image/merkle/1080x1080-Blog%20-"
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/engagement-loyalty.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[23/41] ⚠️  Content completeness 87.3% (below 90.0%) — possible dropped content
+[23/41] ✅ Saved content to en/capabilities/engagement-loyalty
+[Browser Console] Failed to load resource: the server responded with a status of 404 ()
+[Browser Console] ping:missingresource {source: https://www.merkle.com/en/capabilities/0.3,1.0,0, target: 404}
+[Browser Console] ping:cwv {cwv: Object}
+[Browser Console] ping:cwv {cwv: Object}
+[24/41] Starting https://www.merkle.com/en/capabilities/engagement-loyalty/digital-messaging-marketing-customer-service.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 2 block instances on page
+[24/41] ⚠️  Content completeness 85.2% (below 90.0%) — possible dropped content
+[24/41] ✅ Saved content to en/capabilities/engagement-loyalty/digital-messaging-marketing-customer-service
+[25/41] Starting https://www.merkle.com/en/capabilities/engagement-loyalty/intelligent-messaging.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 0 block instances on page
+[25/41] ✓ Content completeness 97.4%
+[25/41] ✅ Saved content to en/capabilities/engagement-loyalty/intelligent-messaging
+[26/41] Starting https://www.merkle.com/en/capabilities/engagement-loyalty/loyalty-strategy-program-execution.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 2 block instances on page
+[26/41] ⚠️  Content completeness 86.3% (below 90.0%) — possible dropped content
+[26/41] ✅ Saved content to en/capabilities/engagement-loyalty/loyalty-strategy-program-execution
+[27/41] Starting https://www.merkle.com/en/capabilities/engagement-loyalty/promotions-experiential-marketing.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 2 block instances on page
+[27/41] ⚠️  Content completeness 88.7% (below 90.0%) — possible dropped content
+[27/41] ✅ Saved content to en/capabilities/engagement-loyalty/promotions-experiential-marketing
+[28/41] Starting https://www.merkle.com/en/capabilities/experience-commerce.html
+[Browser Console] Failed to load resource: the server responded with a status of 404 ()
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] get data url from a base64 image (): InvalidCharacterError: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+    at KT.getDataUrlFromB64Img (<anonymous>:2:1903009)
+    at <anonymous>:2:1919086
+    at NodeList.forEach (<anonymous>)
+    at u.storageHandler.preProcess (<anonymous>:2:1918860)
+    at u.storageHandler.import (<anonymous>:2:1920086)
+    at async fk (<anonymous>:2:1926732)
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/experience-commerce.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/experience-commerce.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/experience-commerce.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/experience-commerce.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/experience-commerce.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/experience-commerce.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/experience-commerce.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/experience-commerce.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[28/41] ✓ Content completeness 96.9%
+[28/41] ✅ Saved content to en/capabilities/experience-commerce
+[Browser Console] Failed to load resource: the server responded with a status of 404 ()
+[29/41] Starting https://www.merkle.com/en/capabilities/experience-product-design.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] Failed to load resource: the server responded with a status of 404 ()
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Failed parsing 'srcset' attribute value since it has an unknown descriptor.
+[Browser Console] Dropped srcset candidate "https://assets.merkle.com/is/image/merkle/Blog%20-"
+[Browser Console] Failed parsing 'srcset' attribute value since it has an unknown descriptor.
+[Browser Console] Dropped srcset candidate "https://assets.merkle.com/is/image/merkle/Blog%20-"
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/experience-product-design.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/experience-product-design.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[29/41] ⚠️  Content completeness 82.1% (below 90.0%) — possible dropped content
+[29/41] ✅ Saved content to en/capabilities/experience-product-design
+[Browser Console] Failed to load resource: the server responded with a status of 404 ()
+[Browser Console] Failed to load resource: the server responded with a status of 404 ()
+[30/41] Starting https://www.merkle.com/en/capabilities/gencx.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 2 block instances on page
+[30/41] ⚠️  Content completeness 78.1% (below 90.0%) — possible dropped content
+[30/41] ✅ Saved content to en/capabilities/gencx
+[31/41] Starting https://www.merkle.com/en/capabilities/loyaltyplus.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[31/41] ✓ Content completeness 90.1%
+[31/41] ✅ Saved content to en/capabilities/loyaltyplus
+[32/41] Starting https://www.merkle.com/en/capabilities/merkle-arc.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] ping:top {}
+[Browser Console] ping:language {source: en, target: en-US}
+[Browser Console] ping:enter {source: , target: visible}
+[Browser Console] ping:loadresource {source: https://www.merkle.com/libs/granite/csrf/token.json, target: 22}
+[Browser Console] ping:viewmedia {target: https://assets.merkle.com/is/content/merkle/merkle-full-logo-dt?ts=1765460889463&dpr=off, source: header img.cmp-image__image}
+[Browser Console] ping:viewmedia {target: https://assets.merkle.com/is/image/merkle/Merkle-T…3?op_sharpen=1&op_usm=1.0,0.3,1.0,0&fmt=png-alpha, source: #teaser-aee9335bbc-image img.cmp-image__image}
+[Browser Console] ping:viewmedia {target: https://assets.merkle.com/is/content/merkle/en/sit…0818-Dentsu-Arc-Branding-Video-EN-0x720-3000k.mp4, source: #container-fb851a467e video.cmp-video__player__video}
+[Browser Console] ping:consent {source: onetrust, target: show}
+[Browser Console] ping:viewmedia {target: https://www.google.com/recaptcha/api2/anchor?ar=1&…&anchor-ms=20000&execute-ms=30000&cb=56zrzs3324pd, source: ""}
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] ping:cwv {cwv: Object}
+[Browser Console] ping:cwv {cwv: Object, target: https://assets.merkle.com/is/image/merkle/Merkle-T…p?op_sharpen=1&op_usm=1.0,0.3,1.0,0&fmt=png-alpha, source: #teaser-aee9335bbc-image img.cmp-image__image}
+[Browser Console] ping:viewmedia {target: https://assets.merkle.com/is/image/merkle/Merkle-a…rpen=1&op_usm=1.0,0.3,1.0,0&fmt=png-alpha&dpr=off, source: #image-722ec1ecda img.cmp-image__image}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 3 block instances on page
+[32/41] ⚠️  Content completeness 77.1% (below 90.0%) — possible dropped content
+[32/41] ✅ Saved content to en/capabilities/merkle-arc
+[Browser Console] ping:cwv {cwv: Object}
+[Browser Console] ping:cwv {cwv: Object}
+[33/41] Starting https://www.merkle.com/en/capabilities/merkury-enterprise.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Failed parsing 'srcset' attribute value since it has an unknown descriptor.
+[Browser Console] Dropped srcset candidate "https://assets.merkle.com/is/image/merkle/The%20Most%20Important%20Person%20is%20Missing"
+[Browser Console] Failed parsing 'srcset' attribute value since it has an unknown descriptor.
+[Browser Console] Dropped srcset candidate "https://assets.merkle.com/is/image/merkle/The%20Most%20Important%20Person%20is%20Missing"
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/merkury-enterprise.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[33/41] ⚠️  Content completeness 86.1% (below 90.0%) — possible dropped content
+[33/41] ✅ Saved content to en/capabilities/merkury-enterprise
+[Browser Console] Failed to load resource: the server responded with a status of 404 ()
+[34/41] Starting https://www.merkle.com/en/capabilities/merkury-enterprise/merkury-for-commerce.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 0 block instances on page
+[34/41] ✓ Content completeness 95.4%
+[34/41] ✅ Saved content to en/capabilities/merkury-enterprise/merkury-for-commerce
+[35/41] Starting https://www.merkle.com/en/capabilities/merkury-enterprise/third-party-data-products.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] Failed to load resource: the server responded with a status of 403 ()
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 0 block instances on page
+[35/41] ⚠️  Content completeness 78.6% (below 90.0%) — possible dropped content
+[35/41] ✅ Saved content to en/capabilities/merkury-enterprise/third-party-data-products
+[36/41] Starting https://www.merkle.com/en/capabilities/platforms-engineering.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Failed parsing 'srcset' attribute value since it has an unknown descriptor.
+[Browser Console] Dropped srcset candidate "https://assets.merkle.com/is/image/merkle/Blog%20-"
+[Browser Console] Failed parsing 'srcset' attribute value since it has an unknown descriptor.
+[Browser Console] Dropped srcset candidate "https://assets.merkle.com/is/image/merkle/Blog%20-"
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[Browser Console] Unable to adjust image URL https://www.merkle.com/en/capabilities/platforms-engineering.html?op_sharpen=1&op_usm=1.0,0.3,1.0,0 - removing image
+[36/41] ⚠️  Content completeness 77.1% (below 90.0%) — possible dropped content
+[36/41] ✅ Saved content to en/capabilities/platforms-engineering
+[Browser Console] Failed to load resource: the server responded with a status of 404 ()
+[37/41] Starting https://www.merkle.com/en/capabilities/platforms-engineering/customer-data-platforms-audience-technology.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 0 block instances on page
+[37/41] ✓ Content completeness 94.7%
+[37/41] ✅ Saved content to en/capabilities/platforms-engineering/customer-data-platforms-audience-technology
+[38/41] Starting https://www.merkle.com/en/capabilities/platforms-engineering/customer-data-platforms-audience-technology/merkury-consumer-360.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 2 block instances on page
+[38/41] ✓ Content completeness 93.9%
+[38/41] ✅ Saved content to en/capabilities/platforms-engineering/customer-data-platforms-audience-technology/merkury-consumer-360
+[39/41] Starting https://www.merkle.com/en/capabilities/platforms-engineering/cxm-on-demand.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "video-inline" selector not found: .cmp-video-source
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 0 block instances on page
+[39/41] ✓ Content completeness 93.9%
+[39/41] ✅ Saved content to en/capabilities/platforms-engineering/cxm-on-demand
+[40/41] Starting https://www.merkle.com/en/capabilities/platforms-engineering/data-accelerator.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Block "carousel-hero" selector not found: .teasercarousel.carousel
+[Browser Console] Block "video-inline" selector not found: .video.centered
+[Browser Console] Block "cards" selector not found: .mer-featured-tgl
+[Browser Console] Block "cards" selector not found: .listcards.teasergallerylist
+[Browser Console] Block "cards" selector not found: .container.responsivegrid.text-left.aem-GridColumn--default--3
+[Browser Console] Found 1 block instances on page
+[40/41] ✓ Content completeness 97.4%
+[40/41] ✅ Saved content to en/capabilities/platforms-engineering/data-accelerator
+[41/41] Starting https://www.merkle.com/en/home.html
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Found 9 block instances on page
+[41/41] ⚠️  Content completeness 82.1% (below 90.0%) — possible dropped content
+[41/41] ✅ Saved content to en/home
+[Bulk Import] Completed. Success: 41/41, Reused: 0, Failures: 0
+[Excel Export] Found 41 report file(s). Compiling to Excel...
+[Excel Export] ✅ Compiled 41 reports to: /backups/harikumar-maryadha/eds-ema-da/repo/tools/importer/reports/import-capabilities.report.xlsx

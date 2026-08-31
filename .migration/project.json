@@ -1,0 +1,13 @@
+{
+  "type": "da",
+  "pluginRoot": "/home/node/.excat-marketplaces/excat-marketplace/excat",
+  "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json",
+  "sites": {
+    "eds-ema-da": {
+      "previewOrg": "harikumar-maryadha",
+      "previewSite": "eds-ema-da",
+      "contentHostUrl": "https://content.da.live/harikumar-maryadha/eds-ema-da/",
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
+    }
+  }
+}

@@ -1,0 +1,752 @@
+{
+  "urls-sample": {
+    "captured": "2026-08-31T17:06:50.885Z",
+    "totalUrls": 248,
+    "urls": [
+      {
+        "url": "https://www.merkle.com/en.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/digital-pi.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/helloworld.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/history.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/industry-expertise.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/industry-expertise/automotive.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/industry-expertise/b2b.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/industry-expertise/financial-services.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/industry-expertise/healthcare.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/industry-expertise/high-tech.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/industry-expertise/media-entertainment.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/industry-expertise/nonprofit.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/industry-expertise/retail-consumer-goods.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/industry-expertise/travel-hospitality.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/leadership.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/merkle-dentsu.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/adobe.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/adobe/content-supply-chain-survey.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/adobe/experience-concierge.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/aws.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/braze.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/contentful.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/figma.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/google.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/google/solutions.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/mirakl.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/pega.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/qualtrics.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/salesforce.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/shopify.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/sitecore.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/snowflake.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/treasure-ai.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/uniphore.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/partnerships/zeta.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/about-us/shift7.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/ai-expertise.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/analytics-insights.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/analytics-insights/commerce-reporting-and-analytics.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/analytics-insights/commerce-reporting-and-analytics/digital-shelf.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/analytics-insights/consumer-experience-intelligence.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/analytics-insights/data-and-artificial-intelligence.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/analytics-insights/market-research-consumer-insights.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/analytics-insights/marketing-measurement-and-optimization.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/consulting-business-operations.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/consulting-business-operations/business-transformation-discussion.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/consulting-business-operations/customer-experience-blueprint.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/consulting-business-operations/cx-strategy.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/consulting-business-operations/digital-transformation.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/consulting-business-operations/international-growth-consultancy.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/consulting-business-operations/shopnxt.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/consulting-business-operations/shopnxt/nxt-intelligence.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/consulting-business-operations/shopnxt/scan-know.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/consulting-business-operations/shopnxt/unboxit.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/consulting-business-operations/technology-consulting.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/data-identity.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/digital-analytics-and-ad-tech.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/engagement-loyalty.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/engagement-loyalty/digital-messaging-marketing-customer-service.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/engagement-loyalty/intelligent-messaging.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/engagement-loyalty/loyalty-strategy-program-execution.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/engagement-loyalty/promotions-experiential-marketing.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/experience-commerce.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/experience-product-design.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/gencx.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/loyaltyplus.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/merkle-arc.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/merkury-enterprise.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/merkury-enterprise/merkury-for-commerce.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/merkury-enterprise/third-party-data-products.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/platforms-engineering.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/platforms-engineering/customer-data-platforms-audience-technology.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/platforms-engineering/customer-data-platforms-audience-technology/merkury-consumer-360.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/platforms-engineering/cxm-on-demand.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/capabilities/platforms-engineering/data-accelerator.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/contact-us.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/home.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/asia-pacific/china.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/asia-pacific/hong-kong.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/asia-pacific/india.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/asia-pacific/indonesia.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/asia-pacific/japan.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/asia-pacific/singapore.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/asia-pacific/thailand.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/asia-pacific/vietnam.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/europe/austria.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/europe/bulgaria.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/europe/czechia.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/europe/denmark.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/europe/germany.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/europe/ireland.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/europe/italy.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/europe/netherlands.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/europe/norway.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/europe/portugal.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/europe/serbia.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/europe/sweden.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/europe/switzerland.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/europe/united-kingdom.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/middle-east/united-arab-emirates.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/north-america/mexico.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/north-america/united-states.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/south-america/argentina.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/south-america/brazil.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/south-america/chile.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/locations/south-america/colombia.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/Albert-Heijn.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/Carglass.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/HEMA.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/Mester-Gronn.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/Roskilde-Fesitval.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/WWF.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/aaa-life-aws.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/aaa-life-increases-speed-to-market-with-customized-adobe-campaig.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/aarhus.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/aarp.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/acara.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/adac.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/albert-heijn.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/allianz.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/american-heart-association.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/amica.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/annie-selke.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/arla.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/audi.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/big4.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/brueder-schlau.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/build-a-bear.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/building-a-guest-led-loyalty-experience.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/burger-king.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/capitastar.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/choice.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/cisco.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/citizens-access.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/city-of-hope.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/clarins.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/compare-the-market.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/credit-suisse.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/crocs.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/currys.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/da-direkt.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/danbolig-personal-stories.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/danbolig.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/danske-spil.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/dennys.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/dr-barbara-sturm.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/dyreparken.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/emmi.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/estee-lauder.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/focus-brands.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/funding-circle.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/funlab.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/geely-auto-australia.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/general-assembly.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/helvetia.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/hershey-s-corporate-gifting.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/hersheys.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/hk.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/hobbycraft.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/husqvarna.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/income-insurance-limited.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/irwin-mitchell.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/jcpenney.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/jetstar.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/jysk.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/kellanova.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/kerry-group.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/kfc-restore.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/kuka.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/kvik.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/large-membership-organization.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/large-retailer-marketplace.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/laurastar.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/legal-and-general.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/lgt-bank.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/lumen.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/luxury-conglomerate-improves-channel-performance-through-compreh.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/m-j-bale.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/major-theme-parks-company.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/marel.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/mccain-foods.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/melissa-and-doug.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/mercury-marine.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/migros.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/mini.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/moller-mobility-group.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/mylivit.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/neutrogena.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/new-ireland-assurance.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/novo-nordisk.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/odido.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/party-city.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/pet-wellbeing.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/r-m-williams.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/rac.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/raiffeisen-bank.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/roots.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/royal-brunei-airlines.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/salvation-army.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/sas.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/satair.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/sdc.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/shopee.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/shrm.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/siemens-coffee-mug.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/siemens.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/signify.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/six-flags.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/sony-rewards.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/sorlandets-bakhage-.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/spar.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/specsavers-data-breakthrough.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/specsavers.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/spring-venture-group.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/stop-the-traffik.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/subway.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/swedish-association-of-city-missions.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/swiss-life.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/swisscard.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/tabcorp.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/ted-baker.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/tesco-mobile.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/the-aa.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/the-financial-times.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/tivoli-gardens.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/top-10-p-c-insurer.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/toyota-astra-motor.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/tremco.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/tuv-rheinland.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/ulysse-nardin.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/under-armour.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/university-of-kansas.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/uscellular.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/vantage.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/velux.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/virgin-media-o2.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/vmware.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/vodafone.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/vodafoneziggo.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/volvo-trucks.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/wincasa.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/world-wildlife-fund.html"
+      },
+      {
+        "url": "https://www.merkle.com/en/work/case-studies/zwilling.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+/* carousel-hero — full-bleed dark rotating hero (merkle.com) */
+
+/* full-bleed: override the section content max-width/padding */
+.carousel-hero-wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.carousel-hero {
+  --ch-inset: 20px;
+  --ch-accent: #dd3039;
+
+  position: relative;
+  color: var(--dark-text-color, #fff);
+}
+
+.carousel-hero .carousel-hero-slides-container {
+  position: relative;
+}
+
+.carousel-hero .carousel-hero-slides,
+.carousel-hero .carousel-hero-slide-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-hero .carousel-hero-slides {
+  display: flex;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  overflow: scroll clip;
+}
+
+.carousel-hero .carousel-hero-slides::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-hero .carousel-hero-slide {
+  position: relative;
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  min-height: 440px;
+}
+
+/* full-bleed background image */
+.carousel-hero .carousel-hero-slide .carousel-hero-slide-image {
+  position: absolute;
+  inset: 0;
+}
+
+.carousel-hero .carousel-hero-slide .carousel-hero-slide-image picture {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.carousel-hero .carousel-hero-slide .carousel-hero-slide-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* content overlay */
+.carousel-hero .carousel-hero-slide .carousel-hero-slide-content {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 var(--ch-inset);
+  color: var(--dark-text-color, #fff);
+}
+
+/* stylelint-disable no-descending-specificity -- :has()-based paragraph roles are ordered by content role (eyebrow, heading, description, CTAs), not specificity */
+
+/* eyebrow — the short p before the heading */
+.carousel-hero .carousel-hero-slide-content > p:first-child:not(:has(a)) {
+  margin: 0 0 16px;
+  color: var(--eyebrow-color, #aeaebc);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.carousel-hero .carousel-hero-slide-content h2 {
+  margin: 0 0 16px;
+  color: var(--dark-text-color, #fff);
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/* description — non-button paragraph */
+.carousel-hero .carousel-hero-slide-content > p:not(:has(a)) {
+  margin: 16px 0 0;
+  color: var(--dark-text-color, #fff);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* CTA buttons (authored as plain links, styled here) */
+.carousel-hero .carousel-hero-slide-content p:has(> a) {
+  display: inline-block;
+  margin: 32px 16px 0 0;
+}
+
+.carousel-hero .carousel-hero-slide-content p:has(> a) + p:has(> a) {
+  margin-right: 0;
+}
+
+.carousel-hero .carousel-hero-slide-content p:has(> a) a {
+  display: inline-block;
+  padding: 15px 16px;
+  border: 0;
+  border-radius: 16px;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.carousel-hero .carousel-hero-slide-content p:has(> a) a:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+/* secondary CTA — second consecutive button becomes red outline */
+.carousel-hero .carousel-hero-slide-content p:has(> a) + p:has(> a) a {
+  padding: 13px 14px;
+  border: 2px solid var(--ch-accent);
+  background-color: transparent;
+  color: #fff;
+}
+
+/* hide prev/next arrows — source uses bottom bar indicators only */
+.carousel-hero .carousel-hero-navigation-buttons {
+  display: none;
+}
+
+/* slide indicators — thin horizontal bars, bottom-left */
+.carousel-hero .carousel-hero-slide-indicators {
+  position: absolute;
+  bottom: 24px;
+  left: var(--ch-inset);
+  z-index: 2;
+  display: flex;
+  gap: 6px;
+}
+
+.carousel-hero .carousel-hero-slide-indicator {
+  line-height: 0;
+}
+
+.carousel-hero .carousel-hero-slide-indicator button {
+  width: 52px;
+  height: 3px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: var(--eyebrow-color, #aeaebc);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.carousel-hero .carousel-hero-slide-indicator button:disabled,
+.carousel-hero .carousel-hero-slide-indicator button[aria-current],
+.carousel-hero .carousel-hero-slide-indicator button:hover,
+.carousel-hero .carousel-hero-slide-indicator button:focus-visible {
+  background-color: var(--ch-accent);
+}
+
+@media (width >= 900px) {
+  .carousel-hero {
+    --ch-inset: 40px;
+  }
+
+  .carousel-hero .carousel-hero-slide {
+    min-height: 520px;
+  }
+
+  .carousel-hero .carousel-hero-slide-content h2 {
+    font-size: 44px;
+  }
+}
+
+/* stylelint-enable no-descending-specificity */

@@ -1,0 +1,21 @@
+[Bulk Import] Starting run with:
+  Import script: /backups/harikumar-maryadha/eds-ema-da/repo/tools/importer/import-capabilities.bundle.js
+  URLs file:     /backups/harikumar-maryadha/eds-ema-da/repo/tools/importer/urls-merkle-root.txt
+  Output dir:    /backups/harikumar-maryadha/eds-ema-da/repo/content
+  URL count:     1
+  BD snapshots:  /backups/harikumar-maryadha/eds-ema-da/repo/tools/importer/bd-snapshots (reused on block before Bright Data)
+
+  Browser:       Chromium (bundled) [Chrome unavailable: browserType.launch: Chromium distribution 'chrome' is not found at /opt/google/chrome/chrome
+Run "npx playwright install chrome"]
+[1/1] Starting https://www.merkle.com/
+[Browser Console] Adobe Client Data Layer v2.0.2 has already been imported/initialized on this page. You may be erroneously loading it a second time.
+[Browser Console] requestStorageAccess: Permission denied.
+[Browser Console] [Meta Pixel] - Duplicate Pixel ID: 1183065948373727.
+[Browser Console] %cUTM Tracking for %cMarketo. %c❤%c, @digitalpi. %cVersion: 211110. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-size:125%;color:#3AA5B6 color:#3AA5B6 font-weight:normal;color:#C4C6C9
+[Browser Console] Munchkin.init("%s") options: 442-SZV-721 {wsInfo: j1RQ}
+[Browser Console] Found 9 block instances on page
+[1/1] ⚠️  Content completeness 82.1% (below 90.0%) — possible dropped content
+[1/1] ✅ Saved content to index
+[Bulk Import] Completed. Success: 1/1, Reused: 0, Failures: 0
+[Excel Export] Found 42 report file(s). Compiling to Excel...
+[Excel Export] ✅ Compiled 42 reports to: /backups/harikumar-maryadha/eds-ema-da/repo/tools/importer/reports/import-capabilities.report.xlsx

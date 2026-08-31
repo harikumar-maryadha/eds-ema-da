@@ -1,0 +1,49 @@
+/*
+ * brand.css — merkle.com design tokens (extracted from https://www.merkle.com/en.html)
+ * Font: Adobe Fonts (Typekit) proxima-nova + proxima-nova-condensed, kit yna8sgw
+ */
+
+:root {
+  /* colors */
+  --background-color: #fff;
+  --light-color: #f5f5f5;
+  --dark-color: #000;
+  --text-color: #202020;
+  --link-color: #202020;
+  --link-hover-color: #000;
+  --eyebrow-color: #aeaebc;
+  --dark-text-color: #fff;
+
+  /* fonts */
+  --body-font-family: proxima-nova, "Helvetica Neue", helvetica, arial, sans-serif;
+  --heading-font-family: proxima-nova, "Helvetica Neue", helvetica, arial, sans-serif;
+  --condensed-font-family: proxima-nova-condensed, "Helvetica Neue", helvetica, arial, sans-serif;
+
+  /* heading sizes (desktop) */
+  --heading-font-size-xxl: 64px;
+  --heading-font-size-xl: 44px;
+  --heading-font-size-l: 32px;
+  --heading-font-size-m: 24px;
+  --heading-font-size-s: 20px;
+  --heading-font-size-xs: 18px;
+
+  /* body sizes */
+  --body-font-size-m: 18px;
+  --body-font-size-s: 16px;
+  --body-font-size-xs: 14px;
+
+  /* layout */
+  --content-max-width: 1440px;
+  --nav-height: 64px;
+}
+
+@media (width <= 900px) {
+  :root {
+    --heading-font-size-xxl: 40px;
+    --heading-font-size-xl: 32px;
+    --heading-font-size-l: 26px;
+    --heading-font-size-m: 22px;
+    --heading-font-size-s: 18px;
+    --heading-font-size-xs: 16px;
+  }
+}

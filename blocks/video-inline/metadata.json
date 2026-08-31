@@ -1,0 +1,40 @@
+{
+  "variantName": "video-inline",
+  "baseBlock": "video",
+  "version": "1.0.0",
+  "created": "2026-08-31T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.merkle.com/en.html",
+    "originPage": "Merkle home / capabilities hub landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "feature",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "self-hosted mp4 video source with poster + play-button overlay",
+    "buttonCount": 0,
+    "imageCount": 1,
+    "videoCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "inline centered self-hosted (.mp4) videos mid-page",
+      "sizzle reels / brand videos with a poster image and click-to-play",
+      "dark-themed feature sections containing a single video"
+    ],
+    "notSuitableFor": [
+      "external YouTube/Vimeo embeds (use the embed block)",
+      "rotating galleries of multiple videos (use carousel)",
+      "background autoplay full-bleed video heroes"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/en"],
+    "reuseCount": 1,
+    "lastUsed": "2026-08-31T00:00:00.000Z"
+  }
+}

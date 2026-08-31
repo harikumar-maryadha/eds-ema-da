@@ -10,31 +10,39 @@
  * governing permissions and limitations under the License.
  */
 
-:root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+@import url('brand.css');
 
-  /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+:root {
+  /* colors — merkle.com brand */
+  --background-color: #fff;
+  --light-color: #f5f5f5;
+  --dark-color: #000;
+  --text-color: #202020;
+  --link-color: #202020;
+  --link-hover-color: #000;
+  --eyebrow-color: #aeaebc;
+  --dark-text-color: #fff;
+
+  /* fonts — Adobe Fonts proxima-nova (Typekit yna8sgw) */
+  --body-font-family: proxima-nova, "Helvetica Neue", helvetica, arial, sans-serif;
+  --heading-font-family: proxima-nova, "Helvetica Neue", helvetica, arial, sans-serif;
+  --condensed-font-family: proxima-nova-condensed, "Helvetica Neue", helvetica, arial, sans-serif;
 
   /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+  --body-font-size-m: 18px;
+  --body-font-size-s: 16px;
+  --body-font-size-xs: 14px;
 
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
+  /* heading sizes (desktop) */
+  --heading-font-size-xxl: 64px;
   --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
+  --heading-font-size-l: 32px;
+  --heading-font-size-m: 24px;
+  --heading-font-size-s: 20px;
+  --heading-font-size-xs: 18px;
+
+  /* layout */
+  --content-max-width: 1440px;
 
   /* nav height */
   --nav-height: 64px;
@@ -61,12 +69,12 @@
     --body-font-size-xs: 14px;
 
     /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
+    --heading-font-size-xxl: 40px;
+    --heading-font-size-xl: 32px;
+    --heading-font-size-l: 26px;
     --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
+    --heading-font-size-s: 18px;
+    --heading-font-size-xs: 16px;
   }
 }
 
@@ -322,4 +330,25 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+/* merkle dark section (full-bleed black background, white text) */
+main .section.dark {
+  background-color: var(--dark-color);
+  color: var(--dark-text-color);
+  margin: 0;
+  padding: 64px 0;
+}
+
+main .section.dark h1,
+main .section.dark h2,
+main .section.dark h3,
+main .section.dark h4,
+main .section.dark h5,
+main .section.dark h6 {
+  color: var(--dark-text-color);
+}
+
+main .section.dark a:any-link {
+  color: var(--dark-text-color);
 }

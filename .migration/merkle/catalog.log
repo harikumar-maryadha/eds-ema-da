@@ -1,0 +1,53 @@
+2026-08-31 17:04:58 | INFO | Checking root page for sitemap-like links...
+2026-08-31 17:04:58 | INFO | Found 1 sitemap-like candidate(s) on the root page
+2026-08-31 17:04:58 | INFO | Trying sitemap candidates...
+2026-08-31 17:04:58 | INFO | Trying sitemap candidate: https://www.merkle.com/sitemap.xml
+2026-08-31 17:04:58 | INFO | Redirect (301) → https://www.merkle.com/
+2026-08-31 17:04:58 | WARNING | Got 200 but not a valid sitemap. Preview: <!DOCTYPE HTML> <html lang="en"> <head> <meta charset="UTF-8"/> <title> Merkle - We Power the Experience Economy </title> <meta name="description" content="The next decade belongs t...
+2026-08-31 17:04:58 | INFO | Trying sitemap candidate: https://www.merkle.com/sitemap.xml.gz
+2026-08-31 17:04:58 | INFO | Redirect (301) → https://www.merkle.com/
+2026-08-31 17:04:58 | WARNING | Got 200 but not a valid sitemap. Preview: <!DOCTYPE HTML> <html lang="en"> <head> <meta charset="UTF-8"/> <title> Merkle - We Power the Experience Economy </title> <meta name="description" content="The next decade belongs t...
+2026-08-31 17:04:58 | INFO | Trying sitemap candidate: https://www.merkle.com/sitemap_index.xml
+2026-08-31 17:04:58 | INFO | Redirect (301) → https://www.merkle.com/
+2026-08-31 17:04:58 | WARNING | Got 200 but not a valid sitemap. Preview: <!DOCTYPE HTML> <html lang="en"> <head> <meta charset="UTF-8"/> <title> Merkle - We Power the Experience Economy </title> <meta name="description" content="The next decade belongs t...
+2026-08-31 17:04:58 | INFO | Trying sitemap candidate: https://www.merkle.com/sitemap-index.xml
+2026-08-31 17:04:58 | INFO | Redirect (301) → https://www.merkle.com/
+2026-08-31 17:04:58 | WARNING | Got 200 but not a valid sitemap. Preview: <!DOCTYPE HTML> <html lang="en"> <head> <meta charset="UTF-8"/> <title> Merkle - We Power the Experience Economy </title> <meta name="description" content="The next decade belongs t...
+2026-08-31 17:04:58 | INFO | Trying sitemap candidate: https://www.merkle.com/sitemap.txt
+2026-08-31 17:04:58 | INFO | Redirect (301) → https://www.merkle.com/
+2026-08-31 17:04:58 | WARNING | Got 200 but not a valid sitemap. Preview: <!DOCTYPE HTML> <html lang="en"> <head> <meta charset="UTF-8"/> <title> Merkle - We Power the Experience Economy </title> <meta name="description" content="The next decade belongs t...
+2026-08-31 17:04:58 | INFO | Trying sitemap candidate: https://www.merkle.com/en/sitemap.html
+2026-08-31 17:04:59 | WARNING | Got 200 but not a valid sitemap. Preview: <!DOCTYPE HTML> <html lang="en"> <head> <meta charset="UTF-8"/> <title> Sitemap </title> <meta name="template" content="merkle-page-content"/> <meta name="viewport" content="wi...
+2026-08-31 17:04:59 | INFO | Checking robots.txt for sitemap references...
+2026-08-31 17:04:59 | INFO | Found 4 sitemap(s) in robots.txt
+2026-08-31 17:04:59 | INFO | Processing 4 unique sitemap(s) from robots.txt...
+2026-08-31 17:04:59 | INFO | [1/4] Fetching sitemap: https://www.merkle.com/en/sitemap.xml
+2026-08-31 17:05:00 | INFO | Fetched sitemap successfully (urlset)
+2026-08-31 17:05:00 | INFO | [2/4] Fetching sitemap: https://www.merkle.com/es/sitemap.xml
+2026-08-31 17:05:00 | INFO | Fetched sitemap successfully (urlset)
+2026-08-31 17:05:00 | INFO | [3/4] Fetching sitemap: https://www.merkle.com/zh/sitemap.xml
+2026-08-31 17:05:00 | INFO | Fetched sitemap successfully (urlset)
+2026-08-31 17:05:00 | INFO | [4/4] Fetching sitemap: https://www.merkle.com/de/sitemap.xml
+2026-08-31 17:05:00 | INFO | Fetched sitemap successfully (urlset)
+2026-08-31 17:05:00 | INFO | Successfully fetched 4 sitemap(s)
+2026-08-31 17:05:00 | INFO | Fetching sitemap for site root: https://www.merkle.com
+2026-08-31 17:05:00 | INFO | Processing 4 sitemap(s)...
+2026-08-31 17:05:00 | INFO | [1/4] Processing sitemap: https://www.merkle.com/en/sitemap.xml
+2026-08-31 17:05:00 | INFO | Sitemap type: urlset
+2026-08-31 17:05:00 | INFO | Extracted 1192 URLs
+2026-08-31 17:05:00 | INFO | [2/4] Processing sitemap: https://www.merkle.com/es/sitemap.xml
+2026-08-31 17:05:00 | INFO | Sitemap type: urlset
+2026-08-31 17:05:00 | INFO | Extracted 157 URLs
+2026-08-31 17:05:00 | INFO | [3/4] Processing sitemap: https://www.merkle.com/zh/sitemap.xml
+2026-08-31 17:05:00 | INFO | Sitemap type: urlset
+2026-08-31 17:05:00 | INFO | Extracted 76 URLs
+2026-08-31 17:05:00 | INFO | [4/4] Processing sitemap: https://www.merkle.com/de/sitemap.xml
+2026-08-31 17:05:00 | INFO | Sitemap type: urlset
+2026-08-31 17:05:00 | INFO | Extracted 129 URLs
+2026-08-31 17:05:00 | INFO | Sitemap fetch complete
+2026-08-31 17:05:00 | INFO | Total sitemaps processed: 4
+2026-08-31 17:05:00 | INFO | Total URLs discovered: 1554
+2026-08-31 17:05:00 | INFO | Sitemap location 1: https://www.merkle.com/en/sitemap.xml
+2026-08-31 17:05:00 | INFO | Sitemap location 2: https://www.merkle.com/es/sitemap.xml
+2026-08-31 17:05:00 | INFO | Sitemap location 3: https://www.merkle.com/zh/sitemap.xml
+2026-08-31 17:05:00 | INFO | Sitemap location 4: https://www.merkle.com/de/sitemap.xml
