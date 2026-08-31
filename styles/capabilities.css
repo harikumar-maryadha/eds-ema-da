@@ -1,0 +1,87 @@
+/*
+ * capabilities.css — navy "text callouts" card grid for merkle.com Capabilities pages.
+ *
+ * The Capabilities index and several service pages present their child links as a
+ * grid of callout cards on a deep-navy band (source component: .cmp-txt-callouts,
+ * rgb(4,14,75), white text, 4 columns). During import this became default content:
+ *   main > .section > .default-content-wrapper > ul > li (h4 + p[link] + p[Learn more])
+ *
+ * These rules re-skin that specific structure to match the source. Scoped to a
+ * .default-content-wrapper > ul whose items lead with an h4 so ordinary bullet
+ * lists elsewhere are unaffected.
+ */
+
+/* the callout band: a default-content ul whose first li starts with a heading */
+main .section .default-content-wrapper > ul:has(> li > h4) {
+  list-style: none;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px 20px;
+  margin: 0;
+  padding: 48px 24px;
+  background-color: #040e4b;
+  color: #fff;
+}
+
+@media (width >= 600px) {
+  main .section .default-content-wrapper > ul:has(> li > h4) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  main .section .default-content-wrapper > ul:has(> li > h4) {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 56px 20px;
+    padding: 64px 40px;
+  }
+}
+
+/* each callout card */
+main .section .default-content-wrapper > ul:has(> li > h4) > li {
+  margin: 0;
+  padding: 0;
+}
+
+main .section .default-content-wrapper > ul:has(> li > h4) > li h4 {
+  margin: 0 0 16px;
+  color: #fff;
+  font-family: var(--heading-font-family);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.23;
+}
+
+main .section .default-content-wrapper > ul:has(> li > h4) > li p {
+  margin: 0 0 16px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* the description and "Learn more" links: white, no underline until hover */
+main .section .default-content-wrapper > ul:has(> li > h4) > li a:any-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+main .section .default-content-wrapper > ul:has(> li > h4) > li a:hover {
+  text-decoration: underline;
+}
+
+main .section .default-content-wrapper > ul:has(> li > h4) > li h4 a:any-link {
+  color: #fff;
+}
+
+/* the trailing "Learn more" paragraph reads as a subtle CTA */
+main .section .default-content-wrapper > ul:has(> li > h4) > li p:last-child a:any-link {
+  font-weight: 700;
+}
+
+/* the intro heading/paragraph that precede the callout band sit on the same navy
+   band on the source; keep them readable if they render on white by leaving the
+   global default typography, but tighten the section's top spacing */
+main .section:has(.default-content-wrapper > ul > li > h4) {
+  margin: 0;
+}
